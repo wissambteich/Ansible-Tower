@@ -1,6 +1,10 @@
 --- 
 - hosts: all
 
+  vars:
+    mail_info: yes
+    admin_mail: wissam.bteich@bmbgroup.com
+    auto_reboot: yes
  
   tasks:
   - name: yum upgrade
