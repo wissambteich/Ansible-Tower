@@ -1,5 +1,5 @@
 --- 
-- hosts: '192.168.1.113'
+- hosts: all
  # gather_facts: false
   
   vars:
